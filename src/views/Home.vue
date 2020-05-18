@@ -1,23 +1,33 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <HelloWorld @updateMessage="title = $event" :msg="title" />
+    <Header/>
+    <main>
+      <Intro/>
+      <WeekArticle/>
+      <Suggestions/>
+    </main>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
+import Header from "@/components/Header.vue";
+import Intro from "@/components/Intro.vue";
+import WeekArticle from "@/components/WeekArticle.vue";
+import Suggestions from "@/components/Suggestions.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "Home",
-  data() {
-    return {
-      title: "ceci",
-    };
-  },
   components: {
-    HelloWorld,
+    Header, 
+    Intro,
+    WeekArticle, 
+    Suggestions, 
+    Footer
   },
 };
 </script>
+
+<style scoped>
+</style>

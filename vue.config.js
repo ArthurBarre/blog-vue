@@ -1,7 +1,8 @@
 module.exports = {
   pwa: {
-    name: "init-vue-course",
-    themeColor: "#4DBA87",
+    name: "Oh My Food",
+    short_name: "OMF",
+    themeColor: "#F8FC3B",
     msTileColor: "#000000",
     appleMobileWebAppCapable: "yes",
     appleMobileWebAppStatusBarStyle: "black",

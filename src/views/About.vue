@@ -2,13 +2,7 @@
   <div>
     <Header/>
     <main>
-      <nav>
-        <ul>
-          <li>
-            <ArticleCover/>
-          </li>
-        </ul>
-      </nav>
+      <p>Je suis la page About - pcq ça tient à coeur à Hln - pcq sinon c'est moche dans le header </p>
     </main>
     <Footer/>
   </div>
@@ -16,17 +10,13 @@
 
 <script>
 import Header from "@/components/Header.vue";
-import ArticleCover from "@/components/ArticleCover.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
-  name: 'Listing',
-  components: {
+  name: 'About',
+    components: {
     Header, 
-    ArticleCover,
     Footer
   }
 }
 </script>
-
-
