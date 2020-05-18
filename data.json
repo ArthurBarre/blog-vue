@@ -1,0 +1,180 @@
+{
+  "name": "articles",
+  "acticles": [
+    {
+      "author": "GWENDAL POULLENNEC, DIRECTEUR INTERNATIONAL DU GUIDE MICHELIN",
+      "img": "gwendal.png",
+      "content": "Le grand méchant loup. L’homme qui fait la pluie et le beau temps sur la gastronomie mondiale, celui qui retire leurs étoiles aux vieux sages toqués. En 2018, Gwendal Poullennec succède à l’Américain Michael Ellis à la tête du Guide Michelin. Dans la boîte depuis seize ans – après l’ESSEC et une candidature spontanée –, il a toujours eu à cœur de dénicher et mettre en lumière les talents de la gastronomie à travers le monde, où qu’ils soient et quel que soit le type de cuisine qu’ils font. Son rôle, concrètement ? « Assurer le développement pérenne du Guide : piloter les équipes d’inspecteurs, assurer l’homogénéité des 32 sélections à travers le monde et être le garant de la ligne éditoriale. »",
+      "sign": "Il a lancé l’édition japonaise au début de sa carrière. La preuve tangible, s’il en fallait, que, bien que la gastronomie soit différente d’un pays à l’autre, « on se retrouve grâce à elle autour de mêmes valeurs de partage, d’échange et de transmission à travers le monde. »",
+      "citation": "« Les étoiles sont une indication du niveau culinaire d’une table pour nos lecteurs. Elles sont des recommandations faites aux gourmets à la recherche d’adresses d’exception et ne sont pas à concevoir comme une récompense pour les chefs. Il ressort de la liberté éditoriale du Guide de les attribuer et non pas de la discrétion des chefs de les rendre. »"
+    },
+    {
+      "author": "SHIRLEY GARRIER & MATHIEU ZOUHAIRI, PHOTOGRAPHES « THE SOCIAL FOOD »",
+      "img": "social-food.png",
+      "content": "Photographes et stylistes culinaires qui arpentent le monde armés de deux Canon 5D mark IV, d’objectifs Sigma et d’un Leica D-lux. En couple dans la vie comme au travail, héritiers de bons vivants, Shirley Garrier et Mathieu Zouhairi se sont rencontrés à 14 ans, à Perpignan. Après leurs études d’art, ils voyagent et développent un goût pour la photographie car ils souhaitaient travailler dans la gastronomie mais pas en cuisine. Leur boîte, The Social food : des dîners privés (elle en cuisine, lui aux cocktails) au début, et, aujourd’hui, des shooting photos pour des restaurants, des marques et des magazines.",
+      "sign": "Matshi, leur marque de sauces pimentées (6 ans de travail). La première bouteille : du kumquat, de la clémentine et du piment habanero jaune. ",
+      "citation": "« Si elle a pour but initial de faire saliver, la photographie culinaire est aussi un bel outil de trans- mission et de mémoire. »"
+    },
+    {
+      "author": "GUILLAUME SANCHEZ CHEF, PARIS",
+      "img": "sanchez.png",
+      "content": "Fils de militaire, il défie l’autorité depuis toujours, par principe. Tête à claques parmi les cuisiniers les plus talentueux de sa génération. Surtout, un chef honnête et sincère, attristé que son « métier ait perdu la tête » et « soit devenu extrêmement politique ». Il a remis au goût du jour l’un des procédés de conservation les plus anciens, la fermentation. Dans son restaurant parisien NE/SO, tout se transforme, rien ne se perd : les produits sont conservés pendant plusieurs semaines, mois, voire années. Le menu est conçu comme “une carte des vins avec des millésimes plus ou moins vieux et disponibles jusqu'à épuisement des quantités réalisées”. Goûts précis et assiettes caractérielles pour prouver “à une société de gens médiocres qui réussissent” que le talent a encore un rôle à jouer sur l’échelle du succès. La dernière fois qu’on l’a vu, il s’interrogeait sur qui de sa génération obtiendrait des étoiles au Guide Michelin, sans se douter qu’il en décrocherait une lui-même quelques mois plus tard.",
+      "sign": "Des tatouages jusque sur le visage.",
+      "citation": "« Pour être reconnu, il faut respecter le triptyque “personnalité, prise de risques et talent.” »"
+    },
+    {
+      "author": "MARINE BIDAUD, DIRECTRICE ASSOCIÉE DU FOODING",
+      "img": "marine.png",
+      "content": "La face (presque) cachée du Fooding. Son poste : directrice associée, en charge des événements et de la direction artistique, au côté d’Alexandre Cammas. Point de départ : à la fin de ses études à la Sorbonne, elle fait le pied de grue en bas de Radio Nova pour obtenir un stage. « Je les ai harcelés pour qu’ils me reçoivent. À l’époque, la minuscule équipe est installée près de la photocopieuse. Je suis arrivée à l’entretien avec un panier garni de produits ultra-sourcés. » Première mission : organiser un événement de 1000 personnes à Marseille et Roubaix. Après six mois, elle passe associée. « À l’époque, la bouffe était un peu has-been, c’était “plouc” d’aimer ça. Il y avait des gastronomiques extrêmement rigoureux et écrasants de convenance ou des bistrots de quartier pas très incarnés, mais pas de cuisine d’auteur comme aujourd’hui. »",
+      "sign": "Elle est passionnée de BD.",
+      "citation": " « Le Fooding est l’étendard pour parler de tout à travers la cuisine. On a participé à faire entrer la cuisine dans la pop culture. On pose des questions.»"
+    },
+    {
+      "author": "ALEXANDRE MAZZIA, CHEF, MARSEILLE",
+      "img": "mazzia.png",
+      "content": "Il vit au Congo jusqu’à ses 14 ans – son père est négociant en bois. Il passe ses vacances scolaires sur l’Île de Ré, où son grand-père est pêcheur. De retour en France, après une école d’horticulture en pensionnat et un bac S, Alexandre Mazzia rejoint l’école hôtelière sur les conseils de sa grand-mère : « S’il y a un métier où tu ne mourras pas de faim, c’est la cuisine. » En 2009, il prend la tête du restaurant de la Cité Radieuse de Le Corbusier à Marseille, et, en 2014, il ouvre AM. « Le jour de l’ouverture, j’avais 21,70 euros sur mon compte, et pas le droit à un découvert. »",
+      "sign": "Pendant des années, il mène de front sa vie de basketteur professionnel et ses débuts dans la pâtisserie : « Quand j’ai eu plus de responsabilités en cuisine, je me suis écarté des terrains. C’était naturel, je suis un cuisinier qui a fait du basket. »",
+      "citation": "« Ma cuisine est personnelle, ancrée sur son territoire. La pêche et le maraîchage dictent ce que je sers. Comprendre ce que l’on fait, comprendre la matière, la fibre, c’est la recette de la vie. »"
+    },
+    {
+      "author": "SOPHIE CORNIBERT, HUGO HIVERNAT & REBECCA ASTHALTER, FONDATEURS DE FULGURANCE, PARIS",
+      "img": "sophie.png",
+      "content": "Fulgurances : de la restauration, de l’événementiel et de l’éditorial. En octobre 2015, Sophie Cornibert, Hugo Hivernat et Rebecca Asthalter inaugurent leur « restaurant tremplin », Fulgurances l’Adresse. Une résidence de chefs incubatrice de talents, où les cuisiniers, souvent seconds d’aînés réputés, tournent tous les trois à six mois. « Le projet de restaurant est lié au projet événementiel, d’une soirée dédiée à mettre en lumière les cuisiniers de demain, nous avons imaginé un lieu fixe où ils pourraient s’exprimer et progresser sur la durée. »",
+      "sign": null,
+      "citation": "« Nous étions les pionniers en France, ça n’a pas été facile à faire entendre à notre banquier. Aujourd’hui, ce genre de projet est entré dans les mœurs. Les cuisiniers ont envie d’explorer, mais ouvrir un restaurant coûte cher et demande des compétences qu’ils n’ont pas toujours. »"
+    },
+    {
+      "author": "ANDREA PETRINI, CRITIQUE GASTRONOMIQUE",
+      "img": "petrini.png",
+      "content": "Il a un accent à couper au couteau. Même éreinté, l’Italien aux montures épaisses est volubile. Terriblement cultivé, il raconte dans de grands gestes tout un tas d’histoires fascinantes à la manière d’un one-man- show. Critique gastronomique réputé et ancien du jury des 50 Best, Andrea Petrini est à la tête du gang de chefs auto-baptisé Gelinaz!.",
+      "sign": "Le Time Magazine l’a décrit comme « le dénicheur parisien des stars de la cuisine », « un véritable connecteur culinaire et probablement l’homme le plus puissant de la gastronomie ».",
+      "citation": "« À l’ère des Creative Commons et de la peur de l’extinction, la méthode du collectif de chefs, fait par eux et pour eux, est d’avancer masqué, de dépouiller la notion d’individualité et de travailler pour une identité élargie, plus collective. »"
+    },
+    {
+      "author": "PIERRE COULON, PATRON DE LA LAITERIE DE PARIS",
+      "img": "coulon.png",
+      "content": "Les chèvres ou la psycho, son directeur de mémoire le somme de choisir. Alors à 20 ans, il plaque ses études pour ouvrir une ferme près de Notre-Dame-des-Landes (120 chèvres et 80 brebis), qu’il vendra pour payer ses dettes. Retour à Paris à 31 ans. Il intègre la Maison Androuet, passe de « paysan fauché à jeune cadre dynamique dans un monde fromager qui brasse des millions sur Rungis ». Pas son truc. Il lance une campagne de crowdfunding, empoche 40 000 euros et inaugure sa Laiterie de Paris à la Goutte-d’Or, dans le 18e, où il transforme depuis 60 000 litres de lait en yaourts et fromages affinés.",
+      "sign": "Il est le gars qui paye le mieux le lait en France, mais pas le crémier le plus cher de Paris. « Je paye trois fois plus que les industriels ; un euro le litre, alors que Lactalis 40 centimes. Les producteurs fixent leur prix pour pouvoir vivre. »",
+      "citation": "« On vend aussi du fromage aux gens qui prennent du crack au métro Marcadet. »"
+    },
+    {
+      "author": "ALEXANDRE COUILLON, CHEF, NOIRMOUTIER",
+      "img": "couillon.png",
+      "content": "Son père « marin-patate » part à la pêche à la crevette en Afrique à 19 ans. Sa mère, couturière, le suit. Alexandre et son frère naissent à Dakar. Quand la famille rentre à Noirmoutier, il a 7 ans. Ses parents achètent alors un café-restaurant face au port. Il reprend l’affaire en 1999 avec son épouse Céline, à 23 ans. « On est deux gamins, insolents et insouciants. Les débuts sont très compliqués. On fait une cuisine simple, de poisson, essentiellement basée sur les fruits de mer. On essaye juste de passer les hivers. Tenir un restaurant à l’année sur une île où les gens viennent pour les vacances, c’est un pari fou. » En 2007, ils apprennent à la radio que le Guide Michelin leur a octroyé une première étoile. Un an plus tard, ils scindent l’établissement en deux : La Marine et La Table d’Élise. En 2016, la série documentaire de Netflix Chef’s Table leur consacre un épisode. Aujourd’hui doublement étoilé, le restaurant La Marine est complet trois mois à l’avance : « Les gens font le voyage exprès pour nous rencontrer et goûter notre cuisine. Je n’ai pas loupé un service en vingt ans. »",
+      "sign": "Il est un des premiers en France à utiliser la technique ikejime. Une méthode d’abattage du poisson plus rapide et « safe » qu’il a apprise au Japon auprès du chef Toru Okuda.",
+      "citation": "« Je n’ai rien inventé, je reprends les codes qui existent. Je fais une cuisine du vivant, marine et végétale, libre, saine et durable. Il n’y a pas de congélateur à La Marine, tout sort de l’eau. »"
+    },
+    {
+      "author": "LAURA VIDAL, SOMMELIÈRE, MARSEILLE",
+      "img": "laura.png",
+      "content": "Dans la restauration depuis ses 16 ans pour « subvenir à ses besoins », la Québécoise étudie à Montréal la sexologie, après avoir tenté la finance. Le restaurant qui l’emploie lui offre sa formation en sommellerie. À Lyon, elle rencontre Catherine Breton, vigneronne, dans un salon d’indépendants. Début d’une carrière prometteur : alors qu’elle doit démarcher Grégory Marchand pour le compte de cette dernière, il lui propose d’être la sommelière de son comptoir, Frenchie. Elle y rencontre Harry Cummins, son compagnon, avec qui elle fonde en 2012 le Paris Popup, un restaurant itinérant. Ils vadrouillent autour du monde et s’installent avec leur associée Julia Mitton à Arles, puis à Marseille, à la Mercerie, la première adresse fixe d’un « trio de nomades ».",
+      "sign": "Elle est élue « meilleure sommelière de l’année 2020 » par le Gault et Millau. C’est la première femme à l’être en cinquante ans d’existence du guide.",
+      "citation": "« La sommellerie, c’est sortir des sentiers battus tout en racontant l’histoire des personnes derrière l’étiquette. »"
+    },
+    {
+      "author": "HÉLÈNE PIETRINI, DIRECTRICE DES «50 BEST»",
+      "img": "helene.png",
+      "content": "Arrivée là « franchement par hasard» : « Je ne suis pas née dans la marmite. J’ai bossé dans les cosmétiques, la lingerie, et j’ai été chassée par Relais & Châteaux. Une révélation. » Comme le reste de sa famille, elle a toujours été obsédée par la nourriture, et vit chaque journée en fonction de ce qu’elle mange : « La bouffe est un élément important, central et structurant, qui joue sur l’humeur et la motivation. » Elle quitte le groupe d’hôtels et de restaurants pour suivre son mari muté à Londres et prend la tête des World’s 50 Best Restaurants. Un classement qu’elle s’évertue depuis à transformer en « plateforme de communication qui pousse des messages qui ont du sens et soutient des thèmes porteurs pour l’industrie comme la parité, l’inclusivité et le développement durable ». ",
+      "sign": null,
+      "citation": "« La gastronomie française doit être plus ouverte sur le monde. Elle n’est plus le centre d’attention. Elle doit être moins territorialiste. »"
+    },
+    {
+      "author": "TABATA & LUDOVIC MEY, CHEFS, LYON",
+      "img": "tabata.png",
+      "content": "Il est d’origine savoyarde, elle est franco-brésilienne. Lui a commencé à cuisiner avec sa grand-mère et a appris auprès de chefs respectés comme Patrick Turpin et Christian Têtedoie ; suite à des études de médecine au Brésil, elle a fait ses classes à l’Institut Paul Bocuse puis auprès de l’étoilé Nicolas Le Bec. Après un tour du monde culinaire, le couple a ouvert un restaurant d’une trentaine de couverts à Lyon, Les Apothicaires : « Nous avons failli divorcer 14 fois en faisant la première carte ! » Ils viennent d’inaugurer leur « Food Traboule ». Un food court de 660 mètres carrés investi par douze chefs qui représentent la diversité de la gastronomie lyonnaise.",
+      "sign": "Une cuisine à quatre mains personnelle, sans chichis et créative, libre et instinctive, marquée par leurs passages chez René Redzepi à Copenhague ou Alex Atala au Brésil (notes de végétal, de fumé et fermentation).",
+      "citation": "« Les enjeux sont énormes autour de l’alimentation. C’est une question de santé publique, d’économie, de lien social, d’éducation et d’environnement. Un chantier mondial dans une société individualiste. Chacun est capable à son niveau d’agir et de réinventer son quotidien : réapprendre à manger en consommant local et de saison, cuisiner des produits sains, éduquer et éveiller les enfants au goût. »"
+    },
+    {
+      "author": "TAKU SEKINE, CHEF, PARIS",
+      "img": "taku.png",
+      "content": "Enfant, au Japon, Taku Sekine dîne dehors presque tous les jours avec ses parents : « J’aimais les crevettes vivantes à 15 euros pièce du restaurant de sushis autant que les Happy Meal de McDonald’s. » Expérience aléatoire qui a largement fait son éducation gustative. Jusqu’à 21 ans, il veut être guitariste. Pas assez doué. Il étudie les langues, l’économie et la politique, bifurque vers la cuisine. Il apprend les bases auprès d’Alain Ducasse et Hélène Darroze, intègre des cantines parisiennes en vogue (Saturne, Clown Bar), et ouvre finalement son propre restaurant dans la capitale, Dersou, où il instaure le premier accord mets et cocktails. Le deuxième, Cheval d’Or, une cantine franco-asiatique, lui a donné « la possibilité d’élargir [sa] palette créative et de se confronter à d’autres challenges culinaires ». Pour le reste, une cuisine « naturelle » : « Je regarde les produits, je les écoute, je les entends. Ils dictent mes gestes. Je ne dénature rien. »",
+      "sign": "Une passion pour le groupe électro et pop rock français Phoenix depuis vingt ans. « Leur musique est comme ma cuisine : non identifiable. Ils sont passés dans mon restaurant il y a cinq ans, depuis on est de très bons amis. »",
+      "citation": "« J’adore les sauces, elles concentrent la saveur. C’est la meilleure invention française, mieux que le Concorde. »"
+    },
+    {
+      "author": "FRANÇOIS RÉGIS-GAUDRY, CRITIQUE GASTRONOMIQUE",
+      "img": "regisgaudry.png",
+      "content": "Dans l’ordre : diplômé de Science Po et journaliste politique à L’Express, François-Régis Gaudry succède en 2006 à Jean-Luc Petitrenaud au service gastronomie du journal (il a quitté son poste en octobre, après dix-huit ans.) En 2010, il remplace François Simon à la télévision sur Paris Première (Très Très Bon) et commence à animer une émission radio sur France Inter (On va déguster). Depuis peu, il présente la deuxième partie de Top Chef sur M6. Plus qu’évaluer des restaurants, il veut « ouvrir les yeux aux lecteurs, auditeurs et téléspectateurs sur ce qu’ils ignorent, faire du décryptage et de la pédagogie sur des réalités à la fois culinaire, alimentaire et agricole. » Pour lui, « manger est un acte un peu anxiogène parfois », et l’enjeu des prochaines décennies est celui-ci : que la food « redevienne politique, poétique et hédoniste. Il faut renouer avec le plaisir, mais de manière consciente, lucide et raisonnable ».",
+      "sign": null,
+      "citation": "« Un critique gastronomique se doit d’être dans une forme d’engagement, sans être dans un militantisme politique. La gastronomie, c’est une culture, un patrimoine et des traditions qui ne doivent pas se perdre. »"
+    },
+    {
+      "author": "JESSICA PRÉALPATO, CHEFFE PÂTISSIÈRE, PARIS",
+      "img": "jessica.png",
+      "content": "Son entretien d’embauche avec Alain Ducasse a duré trois minutes. « Il m’a demandé ce que je voulais faire et m’a présenté au chef Romain Meder. Je ne savais rien du poste. » Depuis, elle régale au Plaza Athénée, à Paris, avec ses « pâtisseries cuisinées », des desserts plus bruts et instinctifs : « J’assaisonne, je réalise des sauces, j’utilise plusieurs cuissons, comme un cuisinier. La naturalité est primordiale : le produit et son producteur sont au centre de l’assiette. Le beau laisse place au goût. »",
+      "sign": "Première femme élue « Meilleure cheffe pâtissière du monde » en 2019, par les 50 Best, puis sacrée « pâtissière de l’année » par le Gault & Millau.",
+      "citation": "« Ces récompenses sont pour moi une victoire personnelle. Je suis arrivée à Paris en 2010 avec un manque de confiance en moi considérable. La route n’a pas été facile mais je n’ai jamais subi. Qu’on soit une femme ou un homme, grand, petit, gros ou maigre, il ne faut pas oublier son but final. Il y a de plus en plus de femmes dans les classes de pâtisserie, c’est génial, mais je défends l’idée qu’une équipe est équilibrée en ayant autant de femmes que d’hommes. »"
+    },
+    {
+      "author": "HUGO ROELLINGER, CHEF, ILLE-ET-VILAINE",
+      "img": "roellinger.png",
+      "content": "Dans une autre vie : marin au long cours en qualité d’officier de la marine marchande. À 24 ans, Hugo Roellinger choisit la cuisine : « La douche froide pour mes parents. C’était un sujet tabou, on ne parlait pas de transmission. Mon père [Olivier Roellinger, ancien chef trois étoiles, ndlr] essayait de me protéger du métier, du fait de passer derrière lui. » Une formation à l’École Ferrandi, des stages chez les Bras, les Troisgros, Pierre Gagnaire et Michel Guérard, puis, il prend en 2014 les commandes du Coquillage, la table des Maisons de Bricourt (Relais & Châteaux) fermée par son père quelques années plus tôt pour des raisons de santé. Sa cuisine à lui « reflète le goût du vivre-ici, le goût de la mer, du bocage et de l’aventure maritime ». En 2019, il obtient sa deuxième étoile.",
+      "sign": "Il a fait du kitesurf à haut niveau.",
+      "citation": "« Je n’aurais pas voulu tuer le père pour exister, c’est une continuité, un clan. Notre force est là. Le but est d’être dans la durabilité. J’ai la chance de n’avoir jamais cuisiné avec mon père, ce qui me donne une grande liberté. »"
+    },
+    {
+      "author": "LUCA PRONZATO, CRÉATEUR DE ONA",
+      "img": "luca.png",
+      "content": "ONA : une plateforme pour jeunes chefs, sommeliers et baristas, qui ouvre des restaurants éphémères dans des lieux inédits à travers le monde, pour une semaine et jusqu’à six mois. ONA pour « vague », en catalan : « Le concept promeut l’horizontalité des talents et la prise de risque créative. » Fort de ses expériences et des rencontres faites à l’étranger, Luca Pronzato souhaitait rassembler une communauté de talents qui partagent une même vision du service, du design et de l’expérience gastronomique. ",
+      "sign": "Épris très tôt de vins nature, il a fait sa première vinification chez Anselme Selosse en Champagne à 18 ans. ",
+      "citation": "« Sortir manger au restaurant est devenu une expérience à part entière qui commence avant d’avoir passé la porte du restaurant. De plus en plus anticipé et théâtralisé, cet acte s’apparente à celui d’aller voir un concert. Les chefs sont des rock stars. »"
+    },
+    {
+      "author": "RAPHAËLE MARCHAL, JOURNALISTE/AUTEURE, PARIS",
+      "img": "raphaelle.png",
+      "content": "Elle fait son stage de fin d’études d’entrepreneuriat chez Butard Enescot : « La cantine était dégueu, je ne voulais plus descendre dans cette espèce de salle glauquissime. Je faisais mes lunch box. Pour ne pas travailler pendant la pause, j’ai lancé mon blog, En rang d’oignons. Ça n’a pas duré longtemps. » La même année, elle remporte un Golden Blog Award dans sa catégorie, se fait repérer par le webzine du Michelin et croise la route de Julie Mathieu et Muriel Tallandier, les fondatrices de Fou de Pâtisserie et Fou de Cuisine, qui se fichent qu’elle ne soit pas journaliste et lui propose d’écrire des articles. Dans la foulée, elle bosse pour le Fooding, Mint, My Little Paris et Elle. « Je pense que je fais partie d’une génération où ce n’était pas grave de ne pas avoir fait d’études de journalisme. » Et puis, les livres culinaires (À la folie, Simple comme bon( jour) et Passion pique-nique) et la télévision (« My Cuisine » puis « William à midi ! » sur C8).",
+      "sign": "Son mot de passe pour tout : « clafoutis », qui est son gâteau préféré. [Evidemment, elle a ajouté des caractères spéciaux et des majuscules. Vous perdriez votre temps à essayer, ndlr.]",
+      "citation": "« Quand je bossais en cuisine [elle a fait des stages dans des restaurants parisiens à 14 ans, ndlr], j’étais plus fascinée par les chefs et les humains qui leur fournissaient des produits que par la réalisation de recettes. Je n’ai jamais eu de passion pour la cuisine. »"
+    },
+    {
+      "author": "ALAIN PASSARD, CHEF, PARIS",
+      "img": "alain.png",
+      "content": "Alain Passard a toujours été attiré par la nourriture et, plus largement, « par les cinq sens » : « J’ai grandi dans une famille artistique en Bretagne ; une mère passionnée de couture, un père musicien, un grand-père vannier et une grand-mère cuisinière. Au début des années 1970, quand, à 14 ans, vous voulez devenir grand couturier, il n’y a pas d’école. Mes parents m’ont conseillé la cuisine, plus facile. » Finalement, il met le doigt sur une « passion extraordinaire ». L’année prochaine, le chef désormais triplement étoilé pour L’Arpège, son restaurant parisien, fêtera ses 50 ans de fourneaux : « Chaque jour est comme le premier. Il n’y a pas de lassitude parce que je respecte les saisons, alors, tous les trois mois, je change de métier ! »",
+      "sign": "« Sculpteur à la flamme », comme il se surnomme, il est passé de rôtisseur dans les années 1990 à une « cuisine légumière au potentiel créatif extraordinaire » dès 2001.",
+      "citation": "« Il y a vingt ans, j’ai compris que j’étais passé à côté de ce que la nature a écrit, des saisons, de la subtilité que peut générer la cuisine légumière. À nous de trouver le confort du légume afin qu’il exprime des saveurs, des parfums, des textures et des couleurs de toute beauté. Le bien-manger passe par le respect de la nature et des saisons. On se réchauffe en hiver, on se désaltère en été. Le plus beau livre de cuisine a été écrit par la nature. »"
+    },
+    {
+      "author": "JEAN SULPICE, CHEF, TALLOIRES-MONTMIN",
+      "img": "jean.png",
+      "content": "En 1995, à la fin de son apprentissage, il dîne à L’Auberge du Père Bise sans se douter qu’un jour il finirait en cuisine. Mais avant, il s’installe en 2002 à Val Thorens, où personne ne pense qu’il côtoiera un jour les étoiles. Finalement : une cuisine gastronomique à 2300 mètres d’altitude, dans une station de ski. Enfant des alpages et des sommets, Jean Sulpice est un amoureux de la nature et des grands espaces, d’où sa cuisine vivace, l’expression pure et authentique d’un territoire : « Sans la nature, on n’est rien. » En 2016, il retrouve la Haute-Savoie et réalise son rêve en devenant le propriétaire du Père Bise, qu’il a remodelé à son image avec son épouse, Magali. Depuis : deux étoiles au Guide Michelin et un titre de « Cuisinier de l’année » par le Gault & Millau en 2018. ",
+      "sign": "Il mène sa vie comme un athlète de haut niveau.",
+      "citation": "« Il faut bosser, garder ses convictions et y croire, avancer dans une ligne de conduite qui vous amène à la réussite, se remettre en question, ne pas se laisser influencer par les autres. Le plus dur est de faire simple, de dégager une émotion avec des légumes qu’on peut faire à la maison, avec du poisson “basique”. »"
+    },
+    {
+      "author": "NADIA & JULIA SAMMUT CHEF ÉTOILÉE ET ÉPICIÈRE, PACA",
+      "img": "sammut.png",
+      "content": "D’un côté, Nadia Sammut, chimiste de formation, première cheffe étoilée sans gluten au monde, initiatrice de la Cuisine Libre (« Une expérience de la haute gastronomie qui se questionne sur l’extension des valeurs culinaires, de son bénéfice sur la société », dit-elle). De l’autre, Julia Sammut, journaliste culinaire reconvertie en épicière de génie à L’Idéal, à Marseille, ancienne associée du Fooding. Filles de Reine Sammut, qui tenait la célèbre Auberge de la Fenière, à Lourmarin (Vaucluse), aujourd’hui reprise par Nadia, après plusieurs années d’une collaboration gastronomique de haute volée.",
+      "sign": "Dans la famille, la gastronomie se transmet de mères en filles.",
+      "citation": null
+    },
+    {
+      "author": "FLORENT LADEYN, CHEF, LILLE ET BOESCHEPE",
+      "img": "ladeyn.png",
+      "content": "Autodidacte optant pour une cuisine de la terre brute et délicate, sauvage et accessible, primitive : « On essaye d’être le plus authentique possible en travaillant des produits de chez nous. On cuisine au feu de bois. » Florent Ladeyn a trois restaurants : L’Auberge du Vert Mont à Boeschepe, dans les Flandres, la cantine flamande Bloempot et l’estaminet nouvelle génération Bierbuik x Bloemeke dans le Vieux-Lille. Le premier, ancienne brasserie aux spécialités flamandes, était tenu par ses grands-parents, puis ses parents, avant de lui revenir : « J’ai été déscolarisé en terminale, j’ai passé mon bac L en candidat libre. J’étais tous les jours à L’Auberge, la “punition” que mon père avait trouvée. Après, j’ai commencé à y travailler, je ne suis plus parti. » En 2020, il perd son étoile : « Je ne suis ni déçu ni en colère, juste surpris parce que ça va à l’encontre des retours des clients. Soit on a été mauvais un jour, c’est possible mais je ne m’en souviens pas, soit tous nos clients ont des goûts de merde. On n’a jamais fait un boulot comme on fait aujourd’hui, dans les conditions qu’on a, alors le reste c’est des gommettes, des bons points. »",
+      "sign": "Il s’est formé en lisant des livres et sur Internet.",
+      "citation": "« Ce qui fait la force de la cuisine française, ce sont ses terroirs. Les cuisiniers français ne sont pas meilleurs que les autres, elle est renommée parce qu’on a ces terroirs différents. On a le devoir de perpétuer cette tradition parce que la respecter, c’est aussi la faire évoluer. »"
+    },
+    {
+      "author": "FRANCK PINAY- RABAROUST, RÉDACTEUR EN CHEF ATABULA",
+      "img": "frankpinay.png",
+      "content": "Moins médiatisé que ses confrères, cet ancien du Michelin est un journaliste engagé. Fondateur d’Atabula, site d’information et d’opinion sur la gastronomie en France et à l’étranger, il « refuse le consensus mou », le c’était bien, c’était bon de simple convenance : « Le monde de la restauration se questionne sans cesse, il connaît des difficultés structurelles importantes. Se contenter de constater n’est pas suffisant, il faut prendre position, donner la parole, voire plus. »",
+      "sign": "Atabula est construit comme un média B to B. Mais le lecteur « grand public » d’aujourd’hui souhaite la même information que les professionnels. Atabula joue donc sur deux tableaux : ce qui permet d’avoir un large lectorat.",
+      "citation": "« Le bien-manger implique deux dimensions : la sphère personnelle et la sphère publique, politique. Par-delà le manger équilibré qui concerne la sphère personnelle, l’acte de manger repose de plus en plus sur un acte politique et social. La société, avec le rôle central des médias, exige du citoyen-consommateur de manger responsable. Manger, c’est voter comme dirait Périco Légasse.”"
+    },
+    {
+      "author": "CÉDRIC GROLET, PÂTISSIER, PARIS",
+      "img": "grolet.png",
+      "content": "Plus jeune, pour se faire un peu de fric, il ramasse des fraises. Bingo, son premier dessert : « J’ai coupé les fraises en deux, ajouté de la crème mousseline et de la pâte d’amandes, et marqué “fraisier” dessus. » Il a 13 ans, et ses parents sont si fiers qu’il décide d’en faire son métier. Adulte, il prend les rênes de la pâtisserie de l’hôtel Meurice à Paris, après un long moment passé chez Fauchon. Sa réputation, il la doit à ses fruits sculptés façon trompe-l’œil : « Les clients me connaissent grâce à eux, mais j’ai une collection de pâtisseries égale, voire meilleure ! » Dans la foulée, il est désigné « meilleur pâtissier de l’année » par Le Chef en 2015, « meilleur pâtissier de restaurant au monde » par Les Grandes Tables du Monde en 2017 et, finalement, « meilleur chef pâtissier du monde » par les World’s 50 best restaurants en 2018. Joli palmarès.",
+      "sign": "Il se détourne des « codes palace » en portant des T-shirts plutôt que des vestes de cuisine, des jeans troués et des baskets à la place des sabots. « Et j’ai plein de tatouages. J’ai fait le premier avec mon ex-collègue Nicolas Paciello, au moment de quitter Fauchon après six ans : un smiley. »",
+      "citation": "« À part faire de la pâtisserie, je ne fais pas grand-chose. Le bien ne suffit pas aujourd’hui, c’est le côté dérangeant qui va faire qu’on se souvient de mes desserts. »"
+    },
+    {
+      "author": "JEAN IMBERT, CHEF, PARIS",
+      "img": "imbert.png",
+      "content": "Un homme pressé, trop occupé, en t-shirt et baskets : un restaurant à Paris où il sert la popote populaire de sa grand-mère (Mamie), des comptoirs à bols de pain garnis (Les Bols de Jean, avec Éric Kayser) et une cantine pour starlettes avec Pharrell Williams à Miami (Swan). Aussi, des soirées mondaines, une émission sur France 5 (4 Saisons), un livre de recettes (Merci Mamie, éd. du Chêne) et, dernièrement, le Cheval Blanc St-Barth Isle de France dans les Caraïbes. Et puis, son engagement envers l’industrie agroalimentaire et sa cabane écolo en Bretagne. Le gagnant de Top Chef 2012 jure qu’avec tout ça, il a  encore le temps de cuisiner : « Je n’épluche plus les carottes et je n’ai pas désarêter un poisson depuis longtemps, mais cuisiner, oui ; goûter, imaginer un plat, choisir une vaisselle... » À défaut d’étoiles au Michelin, il a popularisé l’idée de ses aînés, Paul Bocuse et compagnie, qu’un cuisinier puisse devenir une rock star.",
+      "sign": "Les célébrités l’adorent. De Madonna à Omar Sy, en passant par Ladj Ly, Beyoncé, Kylian Mbappé, Dua Lippa, Jay Z et Kanye West... « Je sais que si je suis aux États-Unis et que j’ai besoin d’un endroit où dormir, je peux les appeler. »",
+      "citation": "« Tout peut s’arrêter en six mois. J’ai l’énergie d’un survivant. Rien n’est acquis. »"
+    }
+  ]
+}
