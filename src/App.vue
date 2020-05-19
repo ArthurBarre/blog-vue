@@ -60,7 +60,4 @@ a {
   -moz-osx-font-smoothing: grayscale;
   color: #000000;
 }
-main {
-  padding: 0 2.5rem;
-}
 </style>
