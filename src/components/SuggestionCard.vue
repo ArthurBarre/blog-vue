@@ -1,18 +1,16 @@
 <template>
   <article>
-    <img
-      class="listing-image"
-      :src="require('../assets/articlesImg/' + img)"
-      alt="Food Influencer"
-    />
-    <!-- <div
-      class="listing-image"
-      :style="{ backgroundImage: `url(../assets/articlesImg/${img})` }"
-    ></div> -->
-    <div class="article-info">
-      <h2>{{ id }}</h2>
-      <h2 class="suggestion-title">{{ title }}</h2>
-    </div>
+    <router-link :to="`/article/${id}`">
+      <img
+        class="listing-image"
+        :src="require('../assets/articlesImg/' + img)"
+        alt="Food Influencer"
+      />
+      <div class="article-info">
+        <h2>{{ id }}</h2>
+        <h2 class="suggestion-title">{{ title }}</h2>
+      </div>
+    </router-link>
   </article>
 </template>
 
