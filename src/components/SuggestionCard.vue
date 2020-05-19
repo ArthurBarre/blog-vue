@@ -1,54 +1,62 @@
 <template>
-  <router-link :to="`/article/${id - 1}`">
-    <article>
+  <article class="articleCover">
+    <router-link :to="`/article/${id}`">
       <img
-        class="listing-image"
-        :src="require('../assets/articlesImg/' + img)"
-        alt="Food Influencer"
+        class="cover"
+        v-bind:style="{
+          'background-image':
+            'url(' + require('../assets/articlesImg/' + img) + ')',
+        }"
       />
-      <div class="article-info">
-        <h5>{{ date }}</h5>
+      <div class="articleCover__infos">
+        <aside class="suggestion-date">{{ id }}</aside>
         <h2 class="suggestion-title">{{ title }}</h2>
       </div>
-    </article>
-  </router-link>
+    </router-link>
+  </article>
 </template>
 
+<script>
+export default {
+  name: "ArticleCover",
+  props: ["title", "img", "id"],
+};
+</script>
+
 <style scoped>
-.listing-image {
-  max-width: 80%;
-  object-fit: fill;
-  margin-bottom: 0.5rem;
-}
-article {
+.articleCover {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.article-info {
+
+.articleCover__infos {
   width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
-.separator {
+
+.cover {
+  height: 150px;
+  background-size: 150%;
   width: 100%;
-  margin: 0;
+  background-position: center;
 }
+
 .suggestion-title {
-  max-width: 170px;
+  max-width: 75%;
   text-align: right;
-  font-size: 12px;
+  font-size: 0.875rem;
   font-weight: bold;
 }
-</style>
 
-<script>
-export default {
-  name: "ArticleCover",
-  props: ["title", "img", "id", "date"],
-};
-</script>
+.suggestion-date {
+  font-size: 0.75rem;
+}
+</style>
