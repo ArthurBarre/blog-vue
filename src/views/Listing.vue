@@ -24,7 +24,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .card {
   width: 30%;
   padding: 10px;

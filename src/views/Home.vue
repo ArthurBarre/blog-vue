@@ -1,12 +1,18 @@
 <template>
   <div class="home">
-    <Header/>
+    <Header />
     <main>
-      <Intro/>
-      <WeekArticle/>
-      <Suggestions/>
+      <Intro />
+      <WeekArticle
+        v-bind:title="article.author"
+        v-bind:id="article.id"
+        v-bind:img="article.img"
+        v-bind:citation="article.citation"
+      />
+      <hr />
+      <Suggestions />
     </main>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
@@ -18,16 +24,29 @@ import Suggestions from "@/components/Suggestions.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
+  data() {
+    return { article: null };
+  },
+  created() {
+    fetch(`https://api.npoint.io/cee526d970a090037ac5`)
+      .then((response) => response.json())
+      .then((data) => {
+        let articles = data.articles;
+        let length = articles.length;
+        let article = articles[length - 4];
+        console.log(article);
+        this.article = article;
+      });
+  },
   name: "Home",
   components: {
-    Header, 
+    Header,
     Intro,
-    WeekArticle, 
-    Suggestions, 
-    Footer
+    WeekArticle,
+    Suggestions,
+    Footer,
   },
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

@@ -2,33 +2,37 @@
   <section class="weekArticle">
     <h3>Article de la semaine</h3>
     <blockquote>
-      <h2>FRANÇOIS REGIS-GAUDRY</h2>
-      <p><strong>«</strong> Pour être reconnu, il faut respecter le triptyque “personnalité, prise de risques et talent. <strong>»</strong></p>
+      <h2>{{ title }}</h2>
+      <p>{{ citation }}</p>
       <aside>10/06/2020</aside>
     </blockquote>
     <figure>
-      <img src="" alt="Food Influencer">
-      <router-link to="/article">Lire l'article</router-link>
+      <img
+        class="week-image"
+        :src="require('../assets/articlesImg/' + img)"
+        alt="Food Influencer"
+      />
+      <router-link :to="`/article/${id - 1}`">Lire l'article</router-link>
     </figure>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'WeekArticle',
-}
+  name: "WeekArticle",
+  props: ["img", "title", "citation", "id"],
+};
 </script>
 
 <style scoped>
-
 .weekArticle h3 {
   max-width: 29rem;
   padding: 1rem 2.5rem;
   text-align: right;
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: #F8FC3B;
+  background-color: #f8fc3b;
 }
 
 .weekArticle blockquote {
@@ -57,7 +61,7 @@ export default {
 
 .weekArticle blockquote aside {
   position: absolute;
-  bottom: .5rem;
+  bottom: 0.5rem;
   right: 0;
 }
 
@@ -70,10 +74,12 @@ export default {
 
 .weekArticle figure a {
   margin-top: 3rem;
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: underline;
 }
-
+.week-image {
+  max-width: 80vw;
+}
 </style>
