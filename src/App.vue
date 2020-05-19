@@ -53,6 +53,10 @@ table {
 a {
   text-decoration: none;
   color: inherit;
+  transition: all .2s;
+}
+a:hover {
+  letter-spacing: .02rem;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
