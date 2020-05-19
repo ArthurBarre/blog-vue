@@ -22,46 +22,6 @@ export default {
 
 <style scoped>
 
-.weekArticle blockquote {
-  position: relative;
-  padding: 1.5rem 4.5rem;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-
-.weekArticle blockquote h2 {
-  font-size: 1.75rem;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.weekArticle blockquote p {
-  font-size: 1.125rem;
-  font-style: italic;
-}
-
-.weekArticle blockquote p strong {
-  font-size: 1.5rem;
-  font-weight: 700;
-  font-style: italic;
-}
-
-/* .weekArticle blockquote aside {
-  position: absolute;
-  bottom: 0.5rem;
-  right: 0;
-} */
-
-.weekArticle h3 {
-  max-width: 29rem;
-  padding: 1rem 2.5rem;
-  text-align: right;
-  font-size: 0.875rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  background-color: #f8fc3b;
-}
-
 .weekArticle {
   margin: 2rem 0;
 }
@@ -69,6 +29,10 @@ export default {
 .weekArticle h3 {
   width: fit-content;
   padding: 1rem 2rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #f8fc3b;
 }
 
 .weekArticle blockquote {
@@ -78,12 +42,15 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .weekArticle blockquote h2 {
   width: 75%;
   font-size: 1.75rem;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 .weekArticle blockquote aside {
@@ -93,14 +60,13 @@ export default {
 .weekArticle blockquote p {
   margin-top: 2rem;
   font-size: 1.125rem;
+  font-style: italic;
 }
 
 .weekArticle figure {
-  padding: 1.5rem 4.5em 8.75rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-
   padding: 0 1rem;
 }
 
@@ -118,5 +84,38 @@ export default {
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 800px) {
+  .weekArticle {
+    padding: 0 3rem;
+    margin-bottom: 8.625rem;
+  }
+
+  .weekArticle h3 {
+    width: 33%;
+    padding: 1rem 2.5rem;
+    text-align: right;
+  }
+
+  .weekArticle blockquote {
+    position: relative;
+    margin: 0 0 2rem;
+  }
+
+  .weekArticle figure {
+    padding: 0 3rem;
+    align-items: center;
+  }
+
+  .weekArticle figure .cover {
+    height: 50vh;
+  }
+
+  .weekArticle blockquote aside {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0;
+  }
 }
 </style>

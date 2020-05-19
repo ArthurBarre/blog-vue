@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="article">
     <Header />
     <div>
       <article v-if="article">
