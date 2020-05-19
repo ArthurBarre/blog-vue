@@ -1,40 +1,4 @@
-importScripts("/precache-manifest.4f3553a9105499e85eee6a47e172e300.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
-
-// self.__precacheManifest = [].concat(self.__precacheManifest || []);
-
-// workbox.setConfig({
-//   debug: true,
-// });
-
-// workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
-
-// // workbox.routing.registerRoute(
-// //   new RegExp("https://api.npoint.io/(.*)"),
-// //   new workbox.strategies.CacheFirst({
-// //     cacheName: "api",
-// //     method: "GET",
-// //     cacheableResponse: { statuses: [0, 200] },
-// //     plugins: [
-// //       new workbox.expiration.Plugin({
-// //         maxEntries: 30,
-// //       }),
-// //     ],
-// //   })
-// // );
-
-// self.addEventListener("push", (event) => {
-//   let pushMessage = event.data.text();
-//   // const options = {
-//   //   body: pushMessage,
-//   // };
-//   event.waitUntil(self.registration.showNotification(pushMessage));
-// });
-
-// self.addEventListener("notificationclick", (event) => {
-//   event.notification.close();
-//   const promiseChain = clients.openWindow("www.google.fr");
-//   event.waitUntil(promiseChain);
-// });
+importScripts("/precache-manifest.a4c9234f9e9361561655865581846f4a.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 
@@ -45,7 +9,7 @@ workbox.setConfig({
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(
-  new RegExp("https://jsonplaceholder.typicode.com/(.*)"),
+  new RegExp("https://api.npoint.io/(.*)"),
   new workbox.strategies.CacheFirst({
     cacheName: "jsonplaceholder",
     method: "GET",
@@ -74,8 +38,6 @@ workbox.routing.registerRoute(
 
 let clickUrl;
 
-// [{ title: "test", url: "http://127.0.0.1:8887/#/" }]
-
 self.addEventListener("push", (event) => {
   let pushMessage = event.data.json();
 
@@ -83,22 +45,20 @@ self.addEventListener("push", (event) => {
 
   const options = {
     body: pushMessage[0].title,
-    icon: "./img/apple-touch-icon-60x60.png",
-    image: "./img/apple-touch-icon-60x60.png",
+    icon: "./assets/icons/icon-192x192.png",
+    image: "./assets/icons/icon-192x192.png",
     vibrate: [200, 100, 200, 100],
     tag: "vibration-sample",
   };
 
-  console.log(
-    event.waitUntil(
-      self.registration.showNotification(pushMessage[0].title, options)
-    )
+  event.waitUntil(
+    self.registration.showNotification(pushMessage[0].title, options)
   );
 });
 
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
-  
+
   const promiseChain = clients.openWindow(clickUrl);
   event.waitUntil(promiseChain);
 });
