@@ -1,11 +1,17 @@
 <template>
   <header>
-    <img src="" alt="Logo" />
+    <img class="logo" src alt="Logo" />
     <nav class="headerNav">
       <ul>
-        <li><router-link to="/">Accueil</router-link></li>
-        <li><router-link to="/listing">Nos articles</router-link></li>
-        <li><router-link to="/about">À propos</router-link></li>
+        <li>
+          <router-link to="/">Accueil</router-link>
+        </li>
+        <li>
+          <router-link to="/listing">Nos articles</router-link>
+        </li>
+        <li>
+          <router-link to="/about">À propos</router-link>
+        </li>
       </ul>
     </nav>
   </header>
@@ -13,23 +19,35 @@
 
 <script>
 export default {
-  name: "Header",
+  name: "Header"
 };
 </script>
 
 <style scoped>
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem;
+  width: 100%;
+  height: 40px;
   background-color: #f8fc3b;
+  position: fixed;
+  @media (min-width: 900px) {
+    header {
+      display: flex;
+    }
+  }
+}
+
+.logo {
 }
 
 .headerNav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: none;
+  @media (min-width: 900px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
 }
 
 .headerNav ul li:not(:first-child) {
