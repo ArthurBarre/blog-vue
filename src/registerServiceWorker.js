@@ -10,13 +10,13 @@ if (process.env.NODE_ENV === "production") {
           "For more details, visit https://goo.gl/AFskqB"
       );
 
-      // Notification.requestPermission().then((result) => {
-      //   if (result === "granted") {
-      //     console.log("notif accepted");
-      //   } else {
-      //     console.log("notif refused");
-      //   }
-      // });
+      Notification.requestPermission().then((result) => {
+        if (result === "granted") {
+          console.log("notif accepted");
+        } else {
+          console.log("notif refused");
+        }
+      });
     },
     registered() {
       console.log("Service worker has been registered.");

@@ -1,4 +1,4 @@
-importScripts("/precache-manifest.c58534bb9fb22fdc1793048a403f1aea.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.a59b12a566d7d875db8981e121892a0e.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 // self.__precacheManifest = [].concat(self.__precacheManifest || []);
 
@@ -88,9 +88,10 @@ self.addEventListener("push", (event) => {
     vibrate: [200, 100, 200, 100],
     tag: "vibration-sample",
   };
-
-  event.waitUntil(
-    self.registration.showNotification(pushMessage[0].title, options)
+  console.log(
+    event.waitUntil(
+      self.registration.showNotification(pushMessage[0].title, options)
+    )
   );
 });
 
