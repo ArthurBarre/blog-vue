@@ -1,52 +1,12 @@
 <template>
-  <article>
-    <img
-      class="listing-image"
-      :src="require('../assets/articlesImg/' + img)"
-      alt="Food Influencer"
-    />
-    <!-- <div
-      class="listing-image"
-      :style="{ backgroundImage: `url(../assets/articlesImg/${img})` }"
-    ></div> -->
-    <div class="article-info">
-      <h2>{{ id }}</h2>
+  <article class="articleCover">
+    <img class="cover" v-bind:style="{ 'background-image': 'url(' + require('../assets/articlesImg/' + img) + ')' }"/>
+    <div class="articleCover__infos">
+      <aside class="suggestion-date">{{ id }}</aside>
       <h2 class="suggestion-title">{{ title }}</h2>
     </div>
   </article>
 </template>
-
-<style scoped>
-.listing-image {
-  max-width: 80%;
-  object-fit: fill;
-  margin-bottom: 0.5rem;
-}
-article {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.article-info {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-.separator {
-  width: 100%;
-  margin: 0;
-}
-.suggestion-title {
-  max-width: 170px;
-  text-align: right;
-  font-size: 12px;
-  font-weight: bold;
-}
-</style>
 
 <script>
 export default {
@@ -54,3 +14,43 @@ export default {
   props: ["title", "img", "id"],
 };
 </script>
+
+<style scoped>
+
+.articleCover {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.articleCover__infos {
+  width: 100%;
+  margin: .5rem 0;
+  padding: .5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.cover {
+  height: 150px;
+  background-size: 150%;
+  width: 100%;
+  background-position: center;
+}
+
+.suggestion-title {
+  max-width: 75%;
+  text-align: right;
+  font-size: .875rem;
+  font-weight: bold;
+}
+
+.suggestion-date {
+  font-size: .75rem;
+}
+</style>
+
