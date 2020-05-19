@@ -5,9 +5,13 @@
 </template>
 
 <style>
+
+/***** VENDOR RESET *****/
+
 * {
   box-sizing: border-box;
 } 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -53,11 +57,31 @@ table {
 a {
   text-decoration: none;
   color: inherit;
+  transition: all .2s;
 }
+
+/***** GLOBAL *****/
+
+@keyframes appear {
+  to {
+    opacity: 1;
+  }
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000000;
+  opacity: 0;
+  animation: appear 1s ease-out forwards;
+}
+
+main {
+  min-height: 80vh;
+}
+
+a:hover {
+  letter-spacing: .02rem;
 }
 </style>

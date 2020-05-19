@@ -49,6 +49,15 @@ export default {
 
 <style scoped>
 .suggestions {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .suggestions {
+    display: block;
+  }
+}
+.suggestions {
   margin-top: 1rem;
 }
 
