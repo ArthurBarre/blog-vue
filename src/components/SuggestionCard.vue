@@ -1,10 +1,12 @@
 <template>
   <article class="articleCover">
-    <img class="cover" v-bind:style="{ 'background-image': 'url(' + require('../assets/articlesImg/' + img) + ')' }"/>
-    <div class="articleCover__infos">
-      <aside class="suggestion-date">{{ id }}</aside>
-      <h2 class="suggestion-title">{{ title }}</h2>
-    </div>
+    <router-link :to="`/article/${id}`">
+      <img class="cover" v-bind:style="{ 'background-image': 'url(' + require('../assets/articlesImg/' + img) + ')' }"/>
+      <div class="articleCover__infos">
+        <aside class="suggestion-date">{{ id }}</aside>
+        <h2 class="suggestion-title">{{ title }}</h2>
+      </div>
+    </router-link>
   </article>
 </template>
 
