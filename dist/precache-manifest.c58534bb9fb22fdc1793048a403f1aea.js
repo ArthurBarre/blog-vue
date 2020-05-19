@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37d670f02fe64563844a",
-    "url": "/css/app.c173a4e3.css"
+    "revision": "8fccd8e2da58746b3b11",
+    "url": "/css/app.f64bc9ab.css"
   },
   {
     "revision": "14966325575ae5fc9ae814798c6a30a5",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c89acad0cfca990bdfa09f064d5f9e65",
     "url": "/img/imbert.c89acad0.png"
+  },
+  {
+    "revision": "26ebf0a708949fb3a6c9b38d73f2cbef",
+    "url": "/img/instaLink.26ebf0a7.svg"
   },
   {
     "revision": "0d5ff21f372090378d4aec4d1f66a105",
@@ -104,12 +108,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/taku.c6fa877e.png"
   },
   {
-    "revision": "a30f4f057daff2167fa5e6a6e1573a69",
+    "revision": "62ff6e891afcb69b772a740147213afa",
     "url": "/index.html"
   },
   {
-    "revision": "37d670f02fe64563844a",
-    "url": "/js/app.64fe6cb7.js"
+    "revision": "8fccd8e2da58746b3b11",
+    "url": "/js/app.417df96c.js"
   },
   {
     "revision": "19e78f97c613afd61629",

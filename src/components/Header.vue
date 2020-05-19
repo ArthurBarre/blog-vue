@@ -1,6 +1,6 @@
 <template>
   <header>
-    <img src="" alt="Logo">
+    <img src="" alt="Logo" />
     <nav class="headerNav">
       <ul>
         <li><router-link to="/">Accueil</router-link></li>
@@ -13,8 +13,8 @@
 
 <script>
 export default {
-  name: 'Header',
-}
+  name: "Header",
+};
 </script>
 
 <style scoped>
@@ -22,8 +22,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 2.5rem;
-  border-top: 1rem solid #F8FC3B;
+  padding: 0.5rem;
+  background-color: #f8fc3b;
 }
 
 .headerNav ul {

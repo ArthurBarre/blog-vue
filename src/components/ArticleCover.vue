@@ -9,9 +9,14 @@
   </article>
 </template>
 
-<style>
+<style scoped>
 .listing-image {
   max-width: 100px;
+}
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
 
