@@ -9,12 +9,10 @@
       class="listing-image"
       :style="{ backgroundImage: `url(../assets/articlesImg/${img})` }"
     ></div> -->
-    <hr class="separator" />
     <div class="article-info">
       <h2>{{ id }}</h2>
       <h2 class="suggestion-title">{{ title }}</h2>
     </div>
-    <hr class="separator" />
   </article>
 </template>
 

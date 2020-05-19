@@ -3,15 +3,11 @@
     <h3>Article de la semaine</h3>
     <blockquote>
       <h2>{{ title }}</h2>
-      <p>{{ citation }}</p>
       <aside>10/06/2020</aside>
+      <p>{{ citation }}</p>
     </blockquote>
     <figure>
-      <img
-        class="week-image"
-        :src="require('../assets/articlesImg/' + img)"
-        alt="Food Influencer"
-      />
+      <div class="cover" v-bind:style="{ 'background-image': 'url(' + require('../assets/articlesImg/' + img) + ')' }"></div>
       <router-link :to="`/article/${id - 1}`">Lire l'article</router-link>
     </figure>
   </section>
@@ -25,15 +21,6 @@ export default {
 </script>
 
 <style scoped>
-.weekArticle h3 {
-  max-width: 29rem;
-  padding: 1rem 2.5rem;
-  text-align: right;
-  font-size: 0.875rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  background-color: #f8fc3b;
-}
 
 .weekArticle blockquote {
   position: relative;
@@ -59,27 +46,77 @@ export default {
   font-style: italic;
 }
 
-.weekArticle blockquote aside {
+/* .weekArticle blockquote aside {
   position: absolute;
   bottom: 0.5rem;
   right: 0;
+} */
+
+.weekArticle h3 {
+  max-width: 29rem;
+  padding: 1rem 2.5rem;
+  text-align: right;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #f8fc3b;
+}
+
+.weekArticle {
+  margin: 2rem 0;
+}
+
+.weekArticle h3 {
+  width: fit-content;
+  padding: 1rem 2rem;
+}
+
+.weekArticle blockquote {
+  margin: 1rem 0 2rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.weekArticle blockquote h2 {
+  width: 75%;
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+.weekArticle blockquote aside {
+  font-size: .75rem;
+}
+
+.weekArticle blockquote p {
+  margin-top: 2rem;
+  font-size: 1.125rem;
 }
 
 .weekArticle figure {
   padding: 1.5rem 4.5em 8.75rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
+
+  padding: 0 1rem;
+}
+
+.weekArticle figure .cover {
+  width: 100%;
+  height: 148px;
+  background-image: url(/img/ladeyn.9601d92d.png);
+  background-position: center;
+  background-size: 120%;
 }
 
 .weekArticle figure a {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   text-decoration: underline;
-}
-.week-image {
-  max-width: 80vw;
 }
 </style>

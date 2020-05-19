@@ -9,7 +9,6 @@
         v-bind:img="article.img"
         v-bind:citation="article.citation"
       />
-      <hr />
       <Suggestions />
     </main>
     <Footer />
