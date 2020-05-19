@@ -33,4 +33,7 @@ export default {
 </script>
 
 <style scoped>
+main {
+  padding: unset;
+}
 </style>
