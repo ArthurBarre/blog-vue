@@ -28,10 +28,12 @@
           </p>
         </blockquote>
         <aside class="sign-container">
-          <h3 class="sign-title">Signe particulier :</h3>
-          <p class="sign-desc" v-if="article.sign">
-            {{ article.sign }}
-          </p>
+          <div class="sign-wrapper">
+            <h3 class="sign-title">Signe particulier :</h3>
+            <p class="sign-desc" v-if="article.sign">
+              {{ article.sign }}
+            </p>
+          </div>
         </aside>
       </article>
     </div>
@@ -69,6 +71,7 @@
   display: flex;
   align-items: center;
   margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 .img-container {
@@ -116,8 +119,15 @@
   padding-left: 1.5rem;
 }
 .sign-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.sign-wrapper {
   margin: 1rem;
-  width: 90vw;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
   border: 1px solid black;
 }
