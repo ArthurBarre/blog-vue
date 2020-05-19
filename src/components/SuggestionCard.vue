@@ -20,7 +20,7 @@
 
 <style scoped>
 .listing-image {
-  max-width: 200px;
+  max-width: 80%;
   object-fit: fill;
   margin-bottom: 0.5rem;
 }
