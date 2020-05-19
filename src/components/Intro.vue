@@ -45,16 +45,27 @@ export default {
 
 @media screen and (min-width: 800px) {
   .intro {
-    padding: 9.375rem 25% 5rem; 
-    display: flex;
+    margin: 0;
+    padding: 5rem 25% 6rem 12.5%;
+  }
+
+  .intro img {
+    grid-column: 1;
+    grid-row: 1/3;
+    width: 100%;
+    align-self: center;
   }
 
   .intro h1 {
     font-size: 2.25rem;
+    margin: 0;
+    margin-left: 2rem;
   }
 
   .intro p {
-    font-weight: 700;
+    grid-column: 2;
+    grid-row: 2;
+    margin: 1rem 0 0 2rem;
   }
 }
 
