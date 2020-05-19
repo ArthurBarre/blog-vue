@@ -1,10 +1,6 @@
 <template>
   <article>
-    <img
-      class="listing-image"
-      :src="require('../assets/articlesImg/' + img)"
-      alt="Food Influencer"
-    />
+    <img class="listing-image" :src="require('../assets/articlesImg/' + img)" alt="Food Influencer" />
     <h2>{{ title }}</h2>
   </article>
 </template>
@@ -14,6 +10,7 @@
   max-width: 100px;
 }
 article {
+  font-family: "Montserrat";
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,6 +20,6 @@ article {
 <script>
 export default {
   name: "ArticleCover",
-  props: ["title", "img"],
+  props: ["title", "img"]
 };
 </script>
