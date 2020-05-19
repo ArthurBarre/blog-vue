@@ -32,6 +32,11 @@ export default {
   height: auto;
 }
 
+.intro__img {
+  width: 20%;
+  height: auto;
+}
+
 .intro h1 {
   font-size: 24px;
   text-transform: uppercase;
