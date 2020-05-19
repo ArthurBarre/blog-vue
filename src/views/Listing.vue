@@ -9,6 +9,7 @@
               <div class="card" v-for="article in articles" :key="article.id">
                 <router-link :to="`/article/${article.id}`">
                   <ArticleCover
+                    v-if="article.img"
                     v-bind:title="article.author"
                     v-bind:img="article.img"
                   />

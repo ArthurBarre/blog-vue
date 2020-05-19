@@ -9,7 +9,7 @@
   </article>
 </template>
 
-<style>
+<style scoped>
 .listing-image {
   max-width: 100px;
 }
