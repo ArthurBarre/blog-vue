@@ -1,17 +1,17 @@
 <template>
-  <article>
-    <router-link :to="`/article/${id}`">
+  <router-link :to="`/article/${id - 1}`">
+    <article>
       <img
         class="listing-image"
         :src="require('../assets/articlesImg/' + img)"
         alt="Food Influencer"
       />
       <div class="article-info">
-        <h2>{{ id }}</h2>
+        <h5>{{ date }}</h5>
         <h2 class="suggestion-title">{{ title }}</h2>
       </div>
-    </router-link>
-  </article>
+    </article>
+  </router-link>
 </template>
 
 <style scoped>
@@ -49,6 +49,6 @@ article {
 <script>
 export default {
   name: "ArticleCover",
-  props: ["title", "img", "id"],
+  props: ["title", "img", "id", "date"],
 };
 </script>

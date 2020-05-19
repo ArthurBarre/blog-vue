@@ -8,6 +8,7 @@
           v-bind:title="article.author"
           v-bind:id="article.id"
           v-bind:img="article.img"
+          v-bind:date="article.date"
         />
       </div>
     </div>

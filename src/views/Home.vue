@@ -8,6 +8,7 @@
         v-bind:id="article.id"
         v-bind:img="article.img"
         v-bind:citation="article.citation"
+
       />
       <Suggestions />
     </main>
