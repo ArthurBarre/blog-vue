@@ -1,38 +1,55 @@
 <template>
   <section class="suggestions">
     <h2>OMF | Recommande</h2>
-    <nav class="suggestionsNav">
-      <ul>
-        <li>
-          <ArticleCover/>
-        </li>
-        <li>
-          <ArticleCover/>
-        </li>
-        <li>
-          <ArticleCover/>
-        </li>
-      </ul>
-    </nav>
+    <div class="suggestions-container">
+      <div class="card" v-for="article in articles" :key="article.id">
+        <SuggestionCard
+          v-if="article.img"
+          v-bind:title="article.author"
+          v-bind:id="article.id"
+          v-bind:img="article.img"
+        />
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
-import ArticleCover from "@/components/ArticleCover.vue";
-
+import SuggestionCard from "@/components/SuggestionCard.vue";
 export default {
-  name: 'Suggestions',
+  data() {
+    return { articles: null };
+  },
+  created() {
+    fetch(`https://api.npoint.io/cee526d970a090037ac5`)
+      .then((response) => response.json())
+      .then((data) => {
+        function getRandomInt(max) {
+          return Math.floor(Math.random() * Math.floor(max));
+        }
+        let articles = data.articles;
+        let length = articles.length;
+        let articlesAleat = [];
+        let articlesAleatContent = [];
+        for (let i = 0; i < 3; i++) {
+          articlesAleat.push(getRandomInt(length));
+        }
+        articlesAleat.map((a) => {
+          articlesAleatContent.push(articles[a]);
+        });
+        this.articles = articlesAleatContent;
+      });
+  },
+  name: "Suggestions",
   components: {
-    ArticleCover
-  }
-}
+    SuggestionCard,
+  },
+};
 </script>
 
 <style scoped>
-
 .suggestions {
-  padding: 1rem 4.5rem 0;
-  border-top: 1px solid black;
+  margin-top: 1rem;
 }
 
 .suggestions h2 {
@@ -41,16 +58,19 @@ export default {
   text-transform: uppercase;
 }
 
-.suggestionsNav {
-  margin-top: 5rem;
+.card {
+  width: 33%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.suggestionsNav ul {
-  margin-top: 5rem;
+.suggestions-container {
+  width: 100%;
+  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
-
 </style>
