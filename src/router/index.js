@@ -1,8 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Article from "../views/Article.vue";
 import Listing from "../views/Listing.vue";
+import Article from "../views/Article.vue";
+import About from "../views/About.vue";
 
 Vue.use(VueRouter);
 
@@ -13,7 +14,7 @@ const routes = [
     component: Home,
   },
   {
-    path: "/article/:slug",
+    path: "/article/:id",
     name: "Article",
     component: Article,
   },
@@ -21,6 +22,11 @@ const routes = [
     path: "/listing/",
     name: "Listing",
     component: Listing,
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: About,
   },
 ];
 

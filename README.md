@@ -1,4 +1,10 @@
-# init-vue-course
+# Oh My Food - Blog | PWA | Vue.js
+
+Équipe **Progressive Web 2** :
+
+- [Barré Arthur](https://github.com/ArthurBarre)
+- [Margary Hélène](https://github.com/hlnmargary)
+- [Güngönr Sarah](https://github.com/shatice)
 
 ## Project setup
 ```
