@@ -87,14 +87,16 @@ self.addEventListener("push", (event) => {
     tag: "vibration-sample",
   };
 
-  event.waitUntil(
-    self.registration.showNotification(pushMessage[0].title, options)
+  console.log(
+    event.waitUntil(
+      self.registration.showNotification(pushMessage[0].title, options)
+    )
   );
 });
 
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
-
+  
   const promiseChain = clients.openWindow(clickUrl);
   event.waitUntil(promiseChain);
 });

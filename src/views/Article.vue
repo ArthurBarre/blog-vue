@@ -102,7 +102,6 @@
   font-weight: bold;
   font-size: 15px;
   line-height: 158.1%;
-
   color: #000000;
 }
 .article-citation-desc {
@@ -110,7 +109,6 @@
   font-weight: 900;
   font-size: 24px;
   line-height: 130%;
-
   color: #000000;
 }
 .article-citation-container {
