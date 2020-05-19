@@ -12,7 +12,7 @@
         :src="require('../assets/articlesImg/' + img)"
         alt="Food Influencer"
       />
-      <router-link :to="`/article/${id}`">Lire l'article</router-link>
+      <router-link :to="`/article/${id - 1}`">Lire l'article</router-link>
     </figure>
   </section>
 </template>
