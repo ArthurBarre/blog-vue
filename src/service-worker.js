@@ -7,7 +7,7 @@ workbox.setConfig({
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(
-  new RegExp("https://jsonplaceholder.typicode.com/(.*)"),
+  new RegExp("https://api.npoint.io/(.*)"),
   new workbox.strategies.CacheFirst({
     cacheName: "jsonplaceholder",
     method: "GET",
@@ -36,8 +36,6 @@ workbox.routing.registerRoute(
 
 let clickUrl;
 
-// [{ title: "test", url: "http://127.0.0.1:8887/#/" }]
-
 self.addEventListener("push", (event) => {
   let pushMessage = event.data.json();
 
@@ -45,22 +43,20 @@ self.addEventListener("push", (event) => {
 
   const options = {
     body: pushMessage[0].title,
-    icon: "./img/apple-touch-icon-60x60.png",
-    image: "./img/apple-touch-icon-60x60.png",
+    icon: "./assets/icons/icon-192x192.png",
+    image: "./assets/icons/icon-192x192.png",
     vibrate: [200, 100, 200, 100],
     tag: "vibration-sample",
   };
 
-  console.log(
-    event.waitUntil(
-      self.registration.showNotification(pushMessage[0].title, options)
-    )
+  event.waitUntil(
+    self.registration.showNotification(pushMessage[0].title, options)
   );
 });
 
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
-  
+
   const promiseChain = clients.openWindow(clickUrl);
   event.waitUntil(promiseChain);
 });
