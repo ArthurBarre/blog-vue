@@ -4,7 +4,7 @@
 
 - [Barré Arthur](https://github.com/ArthurBarre)
 - [Margary Hélène](https://github.com/hlnmargary)
-- [Güngönr Sarah](https://github.com/shatice)
+- [Güngör Sarah](https://github.com/shatice)
 
 ## Project setup
 ```

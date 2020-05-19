@@ -33,7 +33,7 @@ export default {
 
 .weekArticle blockquote {
   position: relative;
-  padding: 1.5rem 5.5rem;
+  padding: 1.5rem 4.5rem;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }

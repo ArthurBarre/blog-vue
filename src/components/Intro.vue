@@ -21,9 +21,6 @@ export default {
   display: flex;
 }
 
-.intro__content {
-}
-
 .intro h1 {
   font-size: 2.25rem;
   font-weight: 900;
@@ -32,14 +29,6 @@ export default {
 
 .intro p {
   font-weight: 700;
-}
-
-.intro aside {
-  width: 50%;
-  font-size: 4.5rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  transform: rotate(-90deg);
 }
 
 </style>
