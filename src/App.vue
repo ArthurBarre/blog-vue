@@ -64,4 +64,7 @@ a:hover {
   -moz-osx-font-smoothing: grayscale;
   color: #000000;
 }
+main {
+  min-height: 80vh;
+}
 </style>
