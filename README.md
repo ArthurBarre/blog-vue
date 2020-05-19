@@ -1,7 +1,6 @@
 # Oh My Food - Blog | PWA | Vue.js
 
-https://omf-eight.now.sh/
-(test deploy)
+Le site en ligne : https://oh-my-food.netlify.app
 
 Équipe **Progressive Web 2** :
 

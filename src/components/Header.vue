@@ -8,7 +8,6 @@
       <ul>
         <li><router-link to="/">Accueil</router-link></li>
         <li><router-link to="/listing">Nos articles</router-link></li>
-        <li><router-link to="/about">À propos</router-link></li>
       </ul>
     </nav>
   </header>
