@@ -1,7 +1,6 @@
 # Oh My Food - Blog | PWA | Vue.js
 
 https://omf-eight.now.sh/
-(test deploy)
 
 Équipe **Progressive Web 2** :
 
