@@ -8,7 +8,6 @@
         v-bind:id="article.id"
         v-bind:img="article.img"
         v-bind:citation="article.citation"
-
       />
       <Suggestions />
     </main>
@@ -34,7 +33,6 @@ export default {
         let articles = data.articles;
         let length = articles.length;
         let article = articles[length - 4];
-        console.log(article);
         this.article = article;
       });
   },
