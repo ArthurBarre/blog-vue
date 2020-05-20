@@ -9,11 +9,13 @@
           <p>Son instagram</p>
         </a>
         <figure>
-          <img
+          <div
             class="article-img"
-            :src="require('../assets/articlesImg/' + article.img)"
-            alt="Food Influencer"
-          />
+            v-bind:style="{
+              'background-image':
+                'url(' + require('../assets/articlesImg/' + article.img) + ')',
+            }"
+          ></div>
           <figcaption>{{ article.date }}</figcaption>
         </figure>
         <p class="article-content">
@@ -97,9 +99,13 @@ main {
   text-decoration-line: underline;
 }
 
-figure img {
+figure .article-img {
   width: 100%;
+  height: 50vh;
   margin-bottom: 2rem;
+  background-size: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 figcaption {
@@ -128,7 +134,7 @@ figcaption {
 }
 
 .article-citation-desc {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 900;
   line-height: 1.3;
 }
@@ -144,9 +150,61 @@ figcaption {
   font-size: .938rem;
   font-weight: 700;
 }
+
 .sign-desc {
   margin-top: 0.5rem;
   font-size: .938rem;
   line-height: 1.5;
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    padding: 0 3rem;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+
+    figure {
+    width: 38vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    left: 3rem;
+  }
+
+  figure .article-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+
+  figcaption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: .625rem;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  article {
+    width: 55vw;
+    padding: 0 3rem;
+  }
+
+  .article-title:after {
+    width: 40%;
+  }
+
+  .instagram-link {
+    width: fit-content;
+  }
+
+  .article-citation-desc {
+    line-height: 1.5;
+  }
 }
 </style>
