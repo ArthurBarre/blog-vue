@@ -60,7 +60,6 @@ export default {
 </script>
 
 <style scoped>
-
 main {
   margin: 2rem 0;
   padding: 0 1rem;
@@ -113,7 +112,7 @@ figcaption {
 }
 
 .article-content {
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 200;
   line-height: 1.5;
 }
@@ -128,14 +127,23 @@ figcaption {
 }
 
 .article-citation-title {
-  margin-bottom: .5rem;
-  font-size: .938rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.938rem;
   font-weight: 700;
 }
 
 .article-citation-desc {
   font-size: 1rem;
   font-weight: 900;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000000;
+}
+.article-citation-container {
+  width: 100vw;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
   line-height: 1.3;
 }
 
@@ -147,13 +155,13 @@ figcaption {
 }
 
 .sign-title {
-  font-size: .938rem;
+  font-size: 0.938rem;
   font-weight: 700;
 }
 
 .sign-desc {
   margin-top: 0.5rem;
-  font-size: .938rem;
+  font-size: 0.938rem;
   line-height: 1.5;
 }
 
