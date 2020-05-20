@@ -35,6 +35,7 @@
         </aside>
       </article>
     </main>
+    <Suggestions />
     <Footer />
   </div>
 </template>
@@ -42,6 +43,8 @@
 <script>
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
+import Suggestions from "@/components/Suggestions.vue";
+
 export default {
   data() {
     return { article: null };
@@ -55,6 +58,7 @@ export default {
   components: {
     Header,
     Footer,
+    Suggestions
   },
 };
 </script>
@@ -157,15 +161,20 @@ figcaption {
   line-height: 1.5;
 }
 
+.suggestions {
+  display: none;
+}
+
 @media screen and (min-width: 800px) {
   main {
     padding: 0 3rem;
+    margin-bottom: 6rem;
     display: flex;
     justify-content: flex-end;
     position: relative;
   }
 
-    figure {
+  figure {
     width: 38vw;
     height: 100%;
     position: absolute;
@@ -178,6 +187,7 @@ figcaption {
     width: 100%;
     height: 100%;
     background-size: cover;
+    background-position: top;
   }
 
   figcaption {
@@ -205,6 +215,10 @@ figcaption {
 
   .article-citation-desc {
     line-height: 1.5;
+  }
+
+  .suggestions {
+    display: block;
   }
 }
 </style>

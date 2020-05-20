@@ -66,6 +66,7 @@ export default {
     grid-column: 2;
     grid-row: 2;
     margin: 1rem 0 0 2rem;
+    line-height: 1.2;
   }
 }
 

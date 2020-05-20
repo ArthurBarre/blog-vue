@@ -47,6 +47,10 @@ header .logo--desktop {
   }
 }
 
+.headerNav ul li {
+  font-size: .875rem;
+}
+
 .headerNav .homeLink {
   display: none;
 }

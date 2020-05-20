@@ -66,6 +66,7 @@ export default {
   margin-top: 2rem;
   font-size: 1.125rem;
   font-style: italic;
+  font-weight: 200;
 }
 
 .weekArticle figure {
