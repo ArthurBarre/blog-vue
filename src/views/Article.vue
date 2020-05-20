@@ -96,7 +96,6 @@ main {
 }
 
 .instagram-link p {
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 0.75rem;
   text-decoration-line: underline;
