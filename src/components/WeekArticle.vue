@@ -14,7 +14,10 @@
             'url(' + require('../assets/articlesImg/' + img) + ')',
         }"
       />
-      <router-link :to="`/article/${id}`">Lire l'article</router-link>
+      <router-link :to="`/article/${id}`">
+        <img class="handIcon" src="../assets/svg/hand.svg" alt="icon-insta" />
+        <p>Lire l'article</p>
+      </router-link>
     </figure>
   </section>
 </template>
@@ -85,11 +88,22 @@ export default {
 }
 
 .weekArticle figure a {
-  margin-top: 1.5rem;
-  font-size: 0.875rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-decoration: underline;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.weekArticle figure a img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 2rem;
+}
+
+.weekArticle figure a p {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-decoration-line: underline;
 }
 
 @media screen and (min-width: 800px) {
@@ -116,7 +130,7 @@ export default {
   }
 
   .weekArticle figure .cover {
-    height: 50vh;
+    height: 60vh;
   }
 
   .weekArticle blockquote aside {

@@ -50,7 +50,7 @@ export default {
 }
 
 .suggestion-title {
-  max-width: 75%;
+  max-width: 50%;
   text-align: right;
   font-size: 0.875rem;
   font-weight: bold;
@@ -58,5 +58,11 @@ export default {
 
 .suggestion-date {
   font-size: 0.75rem;
+}
+
+@media screen and (min-width: 800px) {
+  .suggestion-title {
+    max-width: 75%;
+  }
 }
 </style>
