@@ -41,7 +41,6 @@ export default {
         articlesAleat.map((a) => {
           articlesAleatContent.push(articles[a]);
         });
-        console.log(articlesAleatContent);
 
         this.articles = articlesAleatContent;
       });
