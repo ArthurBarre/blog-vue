@@ -25,6 +25,7 @@ export default {
 .intro img {
   grid-column: 1;
   grid-row: 1;
+  width: 100%;
 }
 
 .intro h1 {
@@ -52,7 +53,6 @@ export default {
   .intro img {
     grid-column: 1;
     grid-row: 1/3;
-    width: 100%;
     align-self: center;
   }
 
