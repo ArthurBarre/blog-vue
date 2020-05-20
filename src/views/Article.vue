@@ -1,15 +1,14 @@
 <template>
   <div class="article">
     <Header />
-    <div>
+    <main>
       <article v-if="article">
         <h1 class="article-title">{{ article.author }}</h1>
-        <hr class="separator" />
-        <div class="insta-container">
-          <img src="../assets/icons/instaLink.svg" alt="icon-insta" />
-          <a class="instagram-link" href="">Son instagram</a>
-        </div>
-        <figure v-if="article.img" class="img-container">
+        <a class="instagram-link" href="">
+          <img class="handIcon" src="../assets/svg/hand.svg" alt="icon-insta" />
+          <p>Son instagram</p>
+        </a>
+        <figure>
           <img
             class="article-img"
             :src="require('../assets/articlesImg/' + article.img)"
@@ -26,16 +25,14 @@
             {{ article.citation }}
           </p>
         </blockquote>
-        <aside v-if="article.sign" class="sign-container">
-          <div class="sign-wrapper">
-            <h3 class="sign-title">Signe particulier :</h3>
-            <p class="sign-desc">
-              {{ article.sign }}
-            </p>
-          </div>
+        <aside class="sign-container">
+          <h3 class="sign-title">Signe particulier :</h3>
+          <p class="sign-desc" v-if="article.sign">
+            {{ article.sign }}
+          </p>
         </aside>
       </article>
-    </div>
+    </main>
     <Footer />
   </div>
 </template>
@@ -61,70 +58,76 @@ export default {
 </script>
 
 <style scoped>
+main {
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
 .article-title {
-  margin-top: 1rem;
-  margin-left: 1rem;
+  font-size: 1.5rem;
   font-weight: 900;
-  font-size: 26px;
   line-height: 32px;
-  color: #000000;
-}
-.separator {
-  width: 65%;
-  text-align: left;
-  margin-left: 10px;
-  border: 0.5px solid black;
-}
-.instagram-link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 10px;
-  line-height: 12px;
-  text-align: right;
-  text-decoration-line: underline;
-  margin-left: 1rem;
-  color: #000000;
-}
-.insta-container {
-  display: flex;
-  align-items: center;
-  margin-left: 1rem;
-  margin-top: 1rem;
 }
 
-.img-container {
-  width: 100vw;
+.article-title:after {
+  content: "";
+  display: block;
+  width: 65%;
+  height: 1px;
+  margin-top: 1rem;
+  background-color: black;
+}
+
+.instagram-link {
+  padding: 1rem 0;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
-.article-img {
-  max-width: 90%;
+
+.instagram-link img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
 }
+
+.instagram-link p {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-decoration-line: underline;
+}
+
+figure img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+figcaption {
+  display: none;
+}
+
 .article-content {
-  font-size: 14px;
-  line-height: 150%;
-  text-align: justify;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 200;
+  line-height: 1.5;
 }
+
 .article-content::first-letter {
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 600;
 }
-.article-citation-title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 158.1%;
-  color: #000000;
+
+.article-citation-container {
+  margin: 2rem 0;
 }
+
+.article-citation-title {
+  margin-bottom: 0.5rem;
+  font-size: 0.938rem;
+  font-weight: 700;
+}
+
 .article-citation-desc {
-  font-style: normal;
+  font-size: 1.5rem;
   font-weight: 900;
   font-size: 24px;
   line-height: 130%;
@@ -135,30 +138,23 @@ export default {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   margin-bottom: 1rem;
+  line-height: 1.3;
 }
+
 .sign-container {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-}
-.sign-wrapper {
-  margin: 1rem;
-  width: 90%;
+  padding: 1.5rem 1rem;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
   border: 1px solid black;
 }
+
 .sign-title {
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 18px;
-  color: black;
+  font-size: 0.938rem;
+  font-weight: 700;
 }
 .sign-desc {
   margin-top: 0.5rem;
-  font-size: 15px;
-  line-height: 18px;
-  color: black;
+  font-size: 0.938rem;
+  line-height: 1.5;
 }
 </style>
