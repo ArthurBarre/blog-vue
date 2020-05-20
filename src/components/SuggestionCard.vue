@@ -9,7 +9,7 @@
         }"
       />
       <div class="articleCover__infos">
-        <aside class="suggestion-date">{{ id }}</aside>
+        <aside class="suggestion-date">{{ date }}</aside>
         <h2 class="suggestion-title">{{ title }}</h2>
       </div>
     </router-link>
@@ -19,7 +19,7 @@
 <script>
 export default {
   name: "ArticleCover",
-  props: ["title", "img", "id"],
+  props: ["title", "img", "id", "date"],
 };
 </script>
 
