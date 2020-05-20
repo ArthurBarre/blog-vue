@@ -27,9 +27,9 @@
             {{ article.citation }}
           </p>
         </blockquote>
-        <aside class="sign-container">
+        <aside v-if="article.sign" class="sign-container">
           <h3 class="sign-title">Signe particulier :</h3>
-          <p class="sign-desc" v-if="article.sign">
+          <p class="sign-desc">
             {{ article.sign }}
           </p>
         </aside>
@@ -58,13 +58,12 @@ export default {
   components: {
     Header,
     Footer,
-    Suggestions
+    Suggestions,
   },
 };
 </script>
 
 <style scoped>
-
 main {
   margin: 2rem 0;
   padding: 0 1rem;
@@ -117,7 +116,7 @@ figcaption {
 }
 
 .article-content {
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 200;
   line-height: 1.5;
 }
@@ -132,8 +131,8 @@ figcaption {
 }
 
 .article-citation-title {
-  margin-bottom: .5rem;
-  font-size: .938rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.938rem;
   font-weight: 700;
 }
 
@@ -151,13 +150,13 @@ figcaption {
 }
 
 .sign-title {
-  font-size: .938rem;
+  font-size: 0.938rem;
   font-weight: 700;
 }
 
 .sign-desc {
   margin-top: 0.5rem;
-  font-size: .938rem;
+  font-size: 0.938rem;
   line-height: 1.5;
 }
 
@@ -195,11 +194,11 @@ figcaption {
     position: absolute;
     bottom: 0;
     right: 0;
-    font-size: .625rem;
+    font-size: 0.625rem;
     font-weight: 200;
     font-style: italic;
   }
-  
+
   article {
     width: 55vw;
     padding: 0 3rem;

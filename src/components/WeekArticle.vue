@@ -4,7 +4,7 @@
     <blockquote>
       <h2>{{ title }}</h2>
       <aside>10/06/2020</aside>
-      <p>{{ citation }}</p>
+      <p v-if="citation">{{ citation }}</p>
     </blockquote>
     <figure>
       <img
