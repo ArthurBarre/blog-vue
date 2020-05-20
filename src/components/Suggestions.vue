@@ -3,7 +3,7 @@
     <h2>OMF | Recommande</h2>
     <ul class="suggestions__list">
       <li class="card" v-for="article in articles" :key="article.id">
-        <SuggestionCard
+        <ArticleCover
           v-if="article.img"
           v-bind:title="article.author"
           v-bind:id="article.id"
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import SuggestionCard from "@/components/SuggestionCard.vue";
+import ArticleCover from "@/components/ArticleCover.vue";
 export default {
   data() {
     return { articles: null };
@@ -46,7 +46,7 @@ export default {
   },
   name: "Suggestions",
   components: {
-    SuggestionCard,
+    ArticleCover,
   },
 };
 </script>

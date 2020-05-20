@@ -4,19 +4,15 @@
     <nav class="coversNav">
       <ul class="coversNav__list">
         <li class="card" v-for="article in articles" :key="article.id">
-          <router-link :to="`/article/${article.id}`">
-            <ArticleCover
-              v-if="article.img"
-              v-bind:title="article.author"
-              v-bind:img="article.img"
-            />
-          </router-link>
+          <ArticleCover
+            v-if="article.img"
+            v-bind:title="article.author"
+            v-bind:id="article.id"
+            v-bind:img="article.img"
+          />
         </li>
       </ul>
     </nav>
-    <section class="test">
-
-    </section>
   </section>
 </template>
 
@@ -59,6 +55,7 @@ export default {
   }
 
   .coversNav ul li {
+    overflow: hidden;
     width: 48%;
     margin-bottom: 2rem;
   }

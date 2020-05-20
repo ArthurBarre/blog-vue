@@ -6,8 +6,8 @@
     </router-link>
     <nav class="headerNav">
       <ul>
-        <li><router-link to="/">Accueil</router-link></li>
-        <li><router-link to="/listing">Nos articles</router-link></li>
+        <li class="homeLink"><router-link to="/">Accueil</router-link></li>
+        <li class="listingLink"><router-link to="/listing">Nos articles</router-link></li>
       </ul>
     </nav>
   </header>
@@ -22,6 +22,9 @@ export default {
 <style scoped>
 header {
   padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #f8fc3b;
 }
 
@@ -44,22 +47,31 @@ header .logo--desktop {
   }
 }
 
-.headerNav {
+.headerNav .homeLink {
   display: none;
+}
+
+.headerNav .listingLink {
+  text-decoration: underline;
+}
+
+.headerNav .listingLink .router-link-exact-active {
+  font-weight: 700;
 }
 
 @media screen and (min-width: 800px) {
   header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border-top: 1rem solid #f8fc3b; 
     background-color: unset;
     padding: 2rem 3rem;
   }
 
-  .headerNav {
+  .headerNav .homeLink {
     display: block;
+  }
+
+  .headerNav .listingLink {
+    text-decoration: none;
   }
 
   .headerNav ul {
