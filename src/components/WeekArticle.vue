@@ -7,8 +7,14 @@
       <p>{{ citation }}</p>
     </blockquote>
     <figure>
-      <img class="cover" v-bind:style="{ 'background-image': 'url(' + require('../assets/articlesImg/' + img) + ')' }"/>
-      <router-link :to="`/article/${id - 1}`">Lire l'article</router-link>
+      <img
+        class="cover"
+        v-bind:style="{
+          'background-image':
+            'url(' + require('../assets/articlesImg/' + img) + ')',
+        }"
+      />
+      <router-link :to="`/article/${id}`">Lire l'article</router-link>
     </figure>
   </section>
 </template>
@@ -21,7 +27,6 @@ export default {
 </script>
 
 <style scoped>
-
 .weekArticle {
   margin: 2rem 0;
 }
@@ -54,7 +59,7 @@ export default {
 }
 
 .weekArticle blockquote aside {
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 .weekArticle blockquote p {

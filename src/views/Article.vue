@@ -10,19 +10,18 @@
         </a>
         <figure>
           <img
-            v-if="article.img"
             class="article-img"
             :src="require('../assets/articlesImg/' + article.img)"
             alt="Food Influencer"
           />
-          <figcaption>Date de l’article et genre Credit</figcaption>
+          <figcaption>{{ article.date }}</figcaption>
         </figure>
         <p class="article-content">
           {{ article.content }}
         </p>
-        <blockquote class="article-citation-container">
+        <blockquote v-if="article.citation" class="article-citation-container">
           <h3 class="article-citation-title">Elle nous a dit :</h3>
-          <p class="article-citation-desc" v-if="article.citation">
+          <p class="article-citation-desc">
             {{ article.citation }}
           </p>
         </blockquote>

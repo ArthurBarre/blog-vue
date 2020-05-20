@@ -9,6 +9,7 @@
             v-bind:title="article.author"
             v-bind:id="article.id"
             v-bind:img="article.img"
+            v-bind:date="article.date"
           />
         </li>
       </ul>
@@ -20,7 +21,7 @@
 import ArticleCover from "@/components/ArticleCover.vue";
 
 export default {
-  name: 'ArticlesList', 
+  name: "ArticlesList",
   data() {
     return { articles: null };
   },
@@ -30,54 +31,54 @@ export default {
       .then((data) => (this.articles = data.articles));
   },
   components: {
-    ArticleCover
+    ArticleCover,
   },
 };
 </script>
 
 <style scoped>
+.coversList {
+  padding: 4rem 1rem 0;
+  background-color: rgba(255, 255, 255, 0.582);
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.coversNav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.coversNav ul li {
+  overflow: hidden;
+  width: 48%;
+  margin-bottom: 2rem;
+}
+
+.coversNav ul li img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 800px) {
   .coversList {
-    padding: 4rem 1rem 0;
-    background-color: rgba(255, 255, 255, 0.582);
+    padding: 4rem 3rem;
   }
 
   h1 {
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    text-align: right;
+    font-size: 2rem;
     font-weight: 900;
-    text-transform: uppercase;
   }
-
-  .coversNav ul {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
   .coversNav ul li {
-    overflow: hidden;
-    width: 48%;
-    margin-bottom: 2rem;
+    width: 32%;
   }
-
-  .coversNav ul li img {
-    width: 100%;
-    height: auto;
-  }
-
-  @media screen and (min-width: 800px) {
-    .coversList {
-      padding: 4rem 3rem;
-    }
-
-    h1 {
-      margin-bottom: 4rem;
-      text-align: right;
-      font-size: 2rem;
-      font-weight: 900;
-    }
-    .coversNav ul li {
-      width: 32%;
-    }
-  }
+}
 </style>

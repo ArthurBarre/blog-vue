@@ -31,9 +31,7 @@ export default {
       .then((response) => response.json())
       .then((data) => {
         let articles = data.articles;
-        let length = articles.length;
-        let article = articles[length - 4];
-        console.log(article);
+        let article = articles[13];
         this.article = article;
       });
   },

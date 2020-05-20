@@ -8,6 +8,7 @@
           v-bind:title="article.author"
           v-bind:id="article.id"
           v-bind:img="article.img"
+          v-bind:date="article.date"
         />
       </li>
     </ul>
@@ -40,6 +41,7 @@ export default {
         articlesAleat.map((a) => {
           articlesAleatContent.push(articles[a]);
         });
+        console.log(articlesAleatContent);
 
         this.articles = articlesAleatContent;
       });
