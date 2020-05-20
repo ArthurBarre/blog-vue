@@ -1,22 +1,22 @@
 <template>
   <section class="suggestions">
     <h2>OMF | Recommande</h2>
-    <div class="suggestions-container">
-      <div class="card" v-for="article in articles" :key="article.id">
-        <SuggestionCard
+    <ul class="suggestions__list">
+      <li class="card" v-for="article in articles" :key="article.id">
+        <ArticleCover
           v-if="article.img"
           v-bind:title="article.author"
           v-bind:id="article.id"
           v-bind:img="article.img"
           v-bind:date="article.date"
         />
-      </div>
-    </div>
+      </li>
+    </ul>
   </section>
 </template>
 
 <script>
-import SuggestionCard from "@/components/SuggestionCard.vue";
+import ArticleCover from "@/components/ArticleCover.vue";
 export default {
   data() {
     return { articles: null };
@@ -28,22 +28,26 @@ export default {
         function getRandomInt(max) {
           return Math.floor(Math.random() * Math.floor(max));
         }
+
         let articles = data.articles;
         let length = articles.length;
         let articlesAleat = [];
         let articlesAleatContent = [];
+
         for (let i = 0; i < 3; i++) {
           articlesAleat.push(getRandomInt(length));
         }
+
         articlesAleat.map((a) => {
           articlesAleatContent.push(articles[a]);
         });
+
         this.articles = articlesAleatContent;
       });
   },
   name: "Suggestions",
   components: {
-    SuggestionCard,
+    ArticleCover,
   },
 };
 </script>
@@ -56,31 +60,33 @@ export default {
 @media screen and (min-width: 800px) {
   .suggestions {
     display: block;
+    margin: 0 3rem 5rem;
+    padding: 1.5rem 4.875rem;
+    border-top: 1px solid black;
   }
-}
-.suggestions {
-  margin-top: 1rem;
-}
 
-.suggestions h2 {
-  font-size: 1.5rem;
-  font-weight: 900;
-  text-transform: uppercase;
-}
+  .suggestions h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
 
-.card {
-  width: 33%;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .suggestions__list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
 
-.suggestions-container {
-  width: 100%;
-  margin-top: 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  .suggestions__list li {
+    width: 30%;
+    min-width: 250px;
+    margin-bottom: 2rem;
+  }
+
+  .suggestions__list li:nth-child(2) {
+    margin: 0 5%;
+  }
 }
 </style>

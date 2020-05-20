@@ -7,7 +7,7 @@
       <p>{{ citation }}</p>
     </blockquote>
     <figure>
-      <div class="cover" v-bind:style="{ 'background-image': 'url(' + require('../assets/articlesImg/' + img) + ')' }"></div>
+      <img class="cover" v-bind:style="{ 'background-image': 'url(' + require('../assets/articlesImg/' + img) + ')' }"/>
       <router-link :to="`/article/${id - 1}`">Lire l'article</router-link>
     </figure>
   </section>
@@ -93,18 +93,19 @@ export default {
   }
 
   .weekArticle h3 {
-    width: 33%;
+    min-width: 33%;
     padding: 1rem 2.5rem;
     text-align: right;
   }
 
   .weekArticle blockquote {
     position: relative;
-    margin: 0 0 2rem;
+    padding: 1.5rem 4.875rem;
+    margin: 0 0 1.5rem;
   }
 
   .weekArticle figure {
-    padding: 0 3rem;
+    padding: 0 4.875rem;
     align-items: center;
   }
 

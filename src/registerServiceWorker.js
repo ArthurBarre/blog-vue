@@ -12,9 +12,9 @@ if (process.env.NODE_ENV === "production") {
 
       Notification.requestPermission().then((result) => {
         if (result === "granted") {
-          console.log("notif accepted");
+          console.log("Notif accepted");
         } else {
-          console.log("notif refused");
+          console.log("Notif refused");
         }
       });
     },
